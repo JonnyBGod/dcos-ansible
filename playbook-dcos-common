@@ -1,0 +1,8 @@
+--- 
+- hosts: dcos-cluster
+  become: yes
+  roles:
+    - ansible-dcos-common
+  tags:
+    - common
+    - ansible-dcos-common
